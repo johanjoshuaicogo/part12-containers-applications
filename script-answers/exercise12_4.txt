@@ -1,0 +1,6 @@
+docker start -i tender_galois
+cd usr/src/app/
+apt install -y curl
+curl -sL https://deb.nodesource.com/setup_20.x | bash
+apt install -y nodejs
+node index.js

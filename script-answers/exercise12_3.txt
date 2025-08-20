@@ -1,0 +1,3 @@
+docker start -i tender_galois
+cd usr/src/app/
+nano index.js

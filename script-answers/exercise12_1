@@ -1,21 +1,0 @@
-Script started on Wed Aug 20 09:19:07 2025
-Restored session: Wed Aug 20 09:17:29 PST 2025
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Johans-MacBook-Pro.local/Users/jicogo/codesss/part12-containers-applications[0m[27m[24m[Jjicogo@Johans-MacBook-Pro part12-containers-applications % [K[?2004h[7mdocker container run [7m-[7mit ubuntu bash[27m[K[A[44C[27md[27mo[27mc[27mk[27me[27mr[27m [27mc[27mo[27mn[27mt[27ma[27mi[27mn[27me[27mr[27m [27mr[27mu[27mn[27m -[27mi[27mt[27m [27mu[27mb[27mu[27mn[27mt[27mu[27m [27mb[27ma[27ms[27mh[?2004l
-[?2004h]0;root@a3dd9b1f37d7: /root@a3dd9b1f37d7:/# ls
-[?2004l[0m[01;36mbin[0m   [01;34mdev[0m  [01;34mhome[0m  [01;34mmedia[0m  [01;34mopt[0m   [01;34mroot[0m  [01;36msbin[0m  [01;34msys[0m  [01;34musr[0m
-[01;34mboot[0m  [01;34metc[0m  [01;36mlib[0m   [01;34mmnt[0m    [01;34mproc[0m  [01;34mrun[0m   [01;34msrv[0m   [30;42mtmp[0m  [01;34mvar[0m
-[?2004h]0;root@a3dd9b1f37d7: /root@a3dd9b1f37d7:/# cd usr/src/
-[?2004l[?2004h]0;root@a3dd9b1f37d7: /usr/srcroot@a3dd9b1f37d7:/usr/src# mkdir app
-[?2004l[?2004h]0;root@a3dd9b1f37d7: /usr/srcroot@a3dd9b1f37d7:/usr/src# ls
-[?2004l[0m[01;34mapp[0m
-[?2004h]0;root@a3dd9b1f37d7: /usr/srcroot@a3dd9b1f37d7:/usr/src# cd app/
-[?2004l[?2004h]0;root@a3dd9b1f37d7: /usr/src/approot@a3dd9b1f37d7:/usr/src/app# touch index.js
-[?2004l[?2004h]0;root@a3dd9b1f37d7: /usr/src/approot@a3dd9b1f37d7:/usr/src/app# exit
-[?2004lexit
-[1m[7m%[27m[1m[0m                                                                                ]7;file://Johans-MacBook-Pro.local/Users/jicogo/codesss/part12-containers-applications[0m[27m[24m[Jjicogo@Johans-MacBook-Pro part12-containers-applications % [K[?2004heexit[?2004l
-
-Saving session...
-...saving history...truncating history files...
-...completed.
-
-Script done on Wed Aug 20 09:20:09 2025
