@@ -5,3 +5,19 @@ content-type: application/json
     "text": "kamote",
     "done": false
 }
+
+###
+POST http://localhost:3000/todos/ HTTP/1.1
+content-type: application/json
+
+{
+    "text": "kamote12",
+    "done": false
+}
+
+###
+GET http://localhost:3000/todos/ HTTP/1.1
+content-type: application/json
+###
+GET http://localhost:3000/todos/statistics HTTP/1.1
+content-type: application/json
