@@ -2,17 +2,15 @@ FROM node:20 AS testing-stage
 
 WORKDIR /usr/src/app
 COPY . .
+WORKDIR /usr/src/app/todo-frontend
 RUN npm ci
 RUN npm run test
 
 
 FROM node:20 AS build-stage 
-COPY --from=testing-stage /usr/src/app /usr/src/app
+COPY --from=testing-stage /usr/src/app /usr/src/app/
 
-ENV VITE_BACKEND_URL=http://localhost:3000
-WORKDIR /usr/src/app
-
-COPY . .
+WORKDIR /usr/src/app/todo-frontend
 
 RUN npm ci
 
@@ -23,4 +21,4 @@ FROM nginx:1.25-alpine
 
 # COPY the directory dist from the build-stage to /usr/share/nginx/html
 # The target location here was found from the Docker hub page
-COPY --from=build-stage /usr/src/app/dist /usr/share/nginx/html
+COPY --from=build-stage /usr/src/app/todo-frontend/dist /usr/share/nginx/html
